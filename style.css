@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    
+}
+.head{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    padding: 20px 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+}
+
+#h{
+    color: blue;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+
+
+#us{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-left: 60px;
+    vertical-align: -4px;
+    
+
+}
+
+.nav a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.nav button{
+    margin-left: 10px;
+}
+
+.login{
+    width: 90px;
+    height: 35px;
+    font-size: 1rem;
+    border: 1px solid hsla(0, 0%, 0%, 0.588);
+    border-radius: 5px;
+    margin-left: 80px;
+
+}
+
+.signin{
+    width: 90px;
+    height: 35px;
+    font-size: 1rem;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: #4D54EA;
+    color: #fff;
+}
+
+.nav button{
+    margin-left: 10px;
+}
+
+.content{
+    display: flex;
+
+}
+
+
+
+.left{
+    width: 60%;
+    height: 90vh;
+    background-color: #3931AA;
+    color: #fff;    
+}
+
+.left h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-top: 120px;
+    width: 80%;
+}
+
+.para{
+    padding-left: 100px;
+    padding-top: 20px;
+    vertical-align: 25px;
+    font-size: 16px;
+    width: 70%;
+}
+.left button{
+    width: 140px;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.right{
+    width: 40%;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: url("gal.png");
+    background-size: cover ;
+
+}
+
+
+.box{
+    width: 70%;
+    height: 50%;
+    background-color: #fff;
+    z-index: 1;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    
+    
+    position: absolute;
+    
+}
+
+
+
+.indImg{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-right: 5px;
+    vertical-align: -8px;
+}
+
+.rec{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 55px;
+
+   
+    
+    align-items: center;
+    border: 2px solid hsla(0, 1%, 66%, 0.659);
+    border-radius: 10px;
+}
+
+#moneyR{
+    padding-left: 14px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.selectCountry{
+    width: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 240px;
+    
+}
+
+#india{
+    font-size: 18px;
+    font-weight: bold;
+}
+.ri-arrow-down-s-line{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.send{
+    width: 80%;
+    height: 15%;
+    border: 2px solid hsla(0, 1%, 66%, 0.659);
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-right: 110px;
+    display: flex;
+
+}
